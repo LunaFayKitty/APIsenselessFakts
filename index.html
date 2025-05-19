@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Übung API</title>
+  </head>
+  <body>
+    <section>
+      <h1 id="headline">Senseless</h1>
+      <button id="show" onclick="fetchAndShow()">Show a senseless fact</button>
+      <button id="language" onclick="switchLanguage()">Language</button>
+    </section>
+
+    <div id="response"></div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

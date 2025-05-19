@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply p-8;
+}
+h1 {
+  @apply text-5xl 
+    font-bold
+    pb-8;
+}
+button {
+  @apply bg-orange-400
+  p-3
+  rounded-xl
+  mb-4
+  text-white;
+}
+button:hover {
+  @apply cursor-pointer
+    bg-orange-500;
+}
+div {
+  @apply font-semibold
+  text-lg;
+}
